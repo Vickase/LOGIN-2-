@@ -9,8 +9,19 @@ html, body{
     overflow: hidden;
     margin: 0;
     text-align: center;
+}
 
-    
+.icon{
+    position: absolute;
+    left: 513px;
+    top: 159px;
+    color: grey;
+}
+.icon2{
+    position: absolute;
+    left: 513px;
+    top: 220px;
+    color:grey;
 }
 .container{/*antes .estiloDiv*/
     
@@ -30,9 +41,13 @@ html, body{
     box-sizing: border-box;
     height: 46px;
     width: 270px;
-    padding-left: 15px;
+    padding-left: 25px;
     /*margin-bottom: 15px;*/
     border: none;
+}
+.submit:hover{
+    background:#255428;
+    transition: all 1s ease-in;
 }
 
 .inputs{
